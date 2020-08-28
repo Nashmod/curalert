@@ -1,0 +1,19 @@
+{
+  "name": "curalert",
+  "version": "1.0.0",
+  "description": "Alert System for Curacao",
+  "main": "index.js",
+  "repository": "https://github.com/Nashmod/curalert.git",
+  "author": "Nashmod <n.oleana@profoundprojects.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "run:dev": "nodemon index.js"
+  }
+}
