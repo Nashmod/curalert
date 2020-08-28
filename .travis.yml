@@ -3,5 +3,3 @@ node_js:
   - 'node'
 install:
   - npm install -g codecov
-script:
-  - nyc mocha --report lcovonly -- -R spec && codecov
