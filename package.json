@@ -19,7 +19,7 @@
   },
   "scripts": {
     "run:dev": "nodemon index.js",
-    "test": "jshint index.js && mocha",
+    "test": "jshint index.js && nyc mocha --report lcovonly -- -R spec && codecov",
     "testcov": "mocha",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   }
