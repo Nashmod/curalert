@@ -4,3 +4,4 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/Nashmod/curalert/badge.svg)](https://snyk.io/test/github/Nashmod/curalert)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9a663e22952a72a74089/maintainability)](https://codeclimate.com/github/Nashmod/curalert/maintainability)
 [![Dependencies](https://david-dm.org/Nashmod/curalert.svg)](https://david-dm.org/Nashmod/curalert.svg)
+[![codecov](https://codecov.io/gh/Nashmod/curalert/branch/master/graph/badge.svg)](https://codecov.io/gh/Nashmod/curalert)
