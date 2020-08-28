@@ -3,3 +3,6 @@ node_js:
   - 'node'
 install:
   - npm install -g codecov
+script:
+  - yarn test
+after_success: yarn coverage
