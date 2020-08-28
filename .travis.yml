@@ -1,5 +1,7 @@
 language: node_js
-install:
-  - npm install -g codecov
+node_js:
+  - 'node'
 script:
-  - codecov
+  - yarn testcov
+after_success:
+  - yarn coverage

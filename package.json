@@ -13,10 +13,15 @@
     "jshint": "^2.12.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "codecov": "^3.7.2",
+    "mocha": "^8.1.2",
+    "nodemon": "^2.0.4",
+    "nyc": "^15.1.0"
   },
   "scripts": {
     "run:dev": "nodemon index.js",
-    "test": "jshint index.js"
+    "test": "jshint index.js",
+    "testcov": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   }
 }
